@@ -1,0 +1,25 @@
+#head {
+	background-color: #fff;
+}
+#about {
+	background-color: #f2f2f2;
+}
+#portfolio {
+	background-color: #212121;
+}
+#contacts {
+	background-color: #EB5757;
+}
+#wrap-contacts {
+	width: 500px;
+	height: 100%;
+	margin: 0 auto;
+}
+.contacts-info {
+	width: 500px;
+	height: 60%;
+}
+.hand {
+	width: 500px;
+	height: 40%;
+}
