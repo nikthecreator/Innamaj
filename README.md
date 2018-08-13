@@ -1,2 +1,2 @@
 # Innamaj
-This is photographer website
+This is photographer website portfolio
