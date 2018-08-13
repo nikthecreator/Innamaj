@@ -1,5 +1,5 @@
 $(document).ready(function () {
 	$('#wrapper').fullpage({
-		scrollingSpeed: 900
+		scrollingSpeed: 700
 	});
 });
