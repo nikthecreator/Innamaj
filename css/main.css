@@ -29,10 +29,9 @@ body {
 	background-color: #000000;
 }
 .portfolio-wrapper {
-	height: 100vh;
+	height: 700px;
 	width: 1140px;
 	margin: auto;
-	background-color: #000000;
 }
 .contacts-wrapper {
 	height: 100vh;
@@ -71,7 +70,7 @@ body {
 	height: 200px;
 	margin: auto;
 	margin-top: 75px;
-	font-size: 32px;
+	font-size: 30px;
 	text-align: center;
 	color: #333333;
 }
@@ -94,7 +93,6 @@ body {
 	margin-top: 75px;
 }
 .button {
-	
 	width: 300px;
 	height: 50px;
 	background-color: #212121;
@@ -116,6 +114,39 @@ body {
 	border-color: #212121;
 	background-color: #fff;
 	color: #212121;
+}
+/* Portfolio Page */
+/* ============== */
+.portfolio-img {
+	width: 1140px;
+	height: 500px;
+	background-color: #fff;
+}
+.wrapp-pornfolio-btn {
+	width: 1140px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.portfolio-btn {
+	margin-top: 25px;
+	width: 300px;
+	height: 50px;
+	background-color: #fff;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #333333;
+	border-radius: 50px;
+	border: 3px solid #fff;
+	transition: 0.5s;
+}
+.portfolio-btn:hover {
+	background-color: #212121;
+	color: #fff;
 }
 /* Contact Page */
 /* ============ */
@@ -156,10 +187,8 @@ body {
 	transition: 0.5s;
 }
 .contact-button:hover {
-	background-color: none;
-	color: #333;
-	border: 3px dashed #fff;
-
+	background-color: #EB5757;
+	color: #fff;
 }
 .contact-image {
 	margin: auto;
@@ -168,4 +197,4 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-}
+} 
