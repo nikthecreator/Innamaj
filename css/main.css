@@ -72,7 +72,7 @@ body {
 	height: 200px;
 	margin: auto;
 	margin-top: 75px;
-	font-size: 36px;
+	font-size: 32px;
 	text-align: center;
 	color: #333333;
 }
@@ -88,7 +88,9 @@ body {
 	margin: auto;
 	width: 700px;
 	height: 300px;
-	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
 .button {
 	width: 300px;
