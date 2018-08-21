@@ -40,59 +40,31 @@ body {
 }
 /* Head Page*/
 /* ======== */
-.navbar	{
-	width: 100%;
-	height: 75px;
-	background-color: #fff;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.logo {
- display: flex;
- justify-content: center;
- align-items: center;
-}
-.logo-tittle {
-	height: 30px;
-	width: 85px;
-	margin-left: 15px;
-	font-size: 18px;
-	color: #333333;
-}
-.menu {
-	width: 30px;
-	height: 30px;
-	background-color: #333333;
-}
-.head-text {
-	width: 700px;
-	height: 200px;
-	margin: auto;
-	margin-top: 75px;
-	font-size: 30px;
-	text-align: center;
-	color: #333333;
-}
-.buttons {
+.head-content {
 	width: 650px;
-	height: 50px;
-	margin: 50px auto;
+	height: 55vh;
+	margin: auto;
+}
+.head-text{
+	width: 650px;
+	height: 45vh;
+}
+.head-buttons{
+	height: 10vh;
+	width: 650px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	transition: 0.5s;
 }
-.head-image {
+.head-img {
+	width: 650px;
+	height: 45vh;
 	margin: auto;
-	width: 700px;
-	height: 300px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	margin-top: 75px;
 }
-.button {
+.btn-head {
 	width: 300px;
 	height: 50px;
 	background-color: #212121;
@@ -109,7 +81,7 @@ body {
 }
 /* Button Hover Effect */
 /* =================== */
-.button:hover {
+.btn-head:hover {
 	border: 3px solid;
 	border-color: #212121;
 	background-color: #fff;
@@ -150,28 +122,37 @@ body {
 }
 /* Contact Page */
 /* ============ */
-.contact-list {
+.contact-content {
+	width: 650px;
+	height: 70vh;
 	margin: auto;
-	width: 700px;
-	height: 200px;
+}
+.social {
+	width: 650px;
+	height: 40vh;
 	background-color: #fff;
-	margin-top: 100px;
 }
 .contact-text {
-	margin: auto;
-	width: 700px;
-	height: 100px;
-	color: #fff;
-	text-align: center;
-	margin-top: 50px;
-	font-size: 18px;
-}
-.contact-btn {
-	margin: auto;
-	width: 300px;
-	height: 75px;
+	width: 650px;
+	height: 20vh;
+	background-color: #212121;
 }
 .contact-button {
+	width: 650px;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.contact-img {
+	width: 300px;
+	height: 30vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.contact-btn {
 	margin-top: 25px;
 	width: 300px;
 	height: 50px;
@@ -186,15 +167,15 @@ body {
 	border: 3px solid #fff;
 	transition: 0.5s;
 }
-.contact-button:hover {
+.contact-btn:hover {
 	background-color: #EB5757;
 	color: #fff;
 }
-.contact-image {
+/* .contact-image {
 	margin: auto;
 	width: 300px;
 	height: 255px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-} 
+}  */
