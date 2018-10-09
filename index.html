@@ -1,102 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/fullpage.css">
 	<link rel="stylesheet" href="css/main.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <title>Azartschool</title>
+  </head>
+  <body>
 
-	<title>innamaj</title>
-</head>
-<body>
-	
 	<div id="wrapper">
-		<!-- Head -->
-		<div class="section" id="head">
-			<div class="head-wrapper">
-				<div class="head-content">
-					<div class="head-text">
-
-					</div>
-					<div class="head-buttons">
-						<a href="#" class="btn-head">Написать</a>
-						<a href="#" class="btn-head">Portfolio</a>
-					</div>	
-				</div>
-				<div class="head-img">
-					<img src="img/Samsung-NX20-3.png" alt="">
-				</div>
-			</div>
-		</div>
-		<!-- About -->
-		<div class="section" id="about">
-			<div class="about-wrapper">
-				
-			</div>
-		</div>
-		<!-- Portfolio -->
-		<div class="section" id="portfolio">
-			<div class="slide">
-				<div class="portfolio-wrapper">
-					<div class="portfolio-img">
-
-					</div>
-					<div class="wrapp-pornfolio-btn">
-						<a href="#" class="portfolio-btn">lorem</a>
-					</div>
-				</div>
-			</div>
-			<div class="slide">
-				<div class="portfolio-wrapper">
-					<div class="portfolio-img">
-
-					</div>
-					<div class="wrapp-pornfolio-btn">
-						<a href="#" class="portfolio-btn">lorem</a>
-					</div>
-				</div>
-			</div>
-			<div class="slide">
-				<div class="portfolio-wrapper">
-					<div class="portfolio-img">
-
-					</div>
-					<div class="wrapp-pornfolio-btn">
-						<a href="#" class="portfolio-btn">lorem</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Contacts -->
-		<div class="section" id="contacts">
-			<div class="contacts-wrapper">
-				<div class="contact-content">
-					<div class="social">
-
-					</div>
-					<div class="contact-text">
-
-					</div>
-					<div class="contact-button">
-						<a href="#" class="contact-btn"></a>
-					</div>
-				</div>
-				<div class="contact-img">
-					<img src="img/hand-ckick.png" alt="hand-ckick">
-				</div>
-				</div>
-			</div>
-		</div>
+		<div class="section" id="header">Определённый раздел</div>
+		<div class="section" id="about">Определённый раздел</div>
+		<div class="section">Определённый раздел</div>
+		<div class="section">Определённый раздел</div>
 	</div>
 
-	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/fullpage.js"></script>
 	<script src="js/main.js"></script>
 
-</body>
+	<script>
+		new fullpage('#wrapper', {
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+	//methods
+	fullpage_api.setAllowScrolling(false);
+	</script>
+
+  </body>
 </html>
