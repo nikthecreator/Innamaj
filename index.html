@@ -25,7 +25,30 @@
             </div>
         </div>
 		<div class="section" id="about">Определённый раздел</div>
-		<div class="section" id="form-page">Определённый раздел</div>
+		<div class="section" id="form-page">
+            <div class="form-page">
+                <div class="form-page-header">
+
+                </div>
+                <div class="form-page-content">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Имя</label>
+                            <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Email</label>
+                            <input type="email" class="form-control " id="exampleInputPassword1" placeholder="Введите ваш email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Телефон</label>
+                            <input type="text" class="form-control " id="exampleInputPassword1" placeholder="Введите ваш телефон">
+                        </div>
+                        <button type="submit" class="btn-submit">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 		<div class="section">Определённый раздел</div>
 		<div class="section fp-auto-height" id="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A81389808af1ba52c76d520a54e722f772586d7dee840d0a13e25577601c0e95c&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script></div>
 	</div>
@@ -36,18 +59,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/fullpage.js"></script>
 	<script src="js/main.js"></script>
 
 	<script>
 		new fullpage('#wrapper', {
-		//options here
-		autoScrolling:true,
-		scrollHorizontally: true
-	});
-		//methods
-		fullpage_api.setAllowScrolling(false);
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true
+	    });
+            //methods
+            fullpage_api.setAllowScrolling(false);
 	</script>
   </body>
 </html>
