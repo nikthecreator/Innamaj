@@ -107,7 +107,7 @@
             menu: false,
             anchors:[],
             lockAnchors: false,
-            navigation: false,
+            navigation: true,
             navigationPosition: 'right',
             navigationTooltips: [],
             showActiveTooltip: false,
@@ -152,7 +152,7 @@
             //design
             controlArrows: true,
             controlArrowColor: '#fff',
-            verticalCentered: true,
+            verticalCentered: false,
             sectionsColor : [],
             paddingTop: 0,
             paddingBottom: 0,
