@@ -1,5 +1,19 @@
 // colors
 @arow-down-bg: #FF887B;
+@dark: #131418;
+@white: #ffffff;
+
+// fonts
+.header-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    color: @dark;
+}
+.header-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: @dark;
+}
 
 #header {
     height: 100vh;
@@ -9,6 +23,7 @@
 .head {
     width: 100%;
     height: 100%;
+    // slider
     &-slide {
         width: 100%;
         height: 20%;
@@ -19,18 +34,98 @@
             align-items: flex-start;
         }
     }
+    // content
+    &-content {
+        z-index: 1;
+        margin: 0 auto;
+        width: 600px;
+        height: 400px;
+        &-logo {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-title {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-subtitle {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-btn {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
+
+// button 
+.head-btn {
+    width: 250px;
+    height: 50px;
+    background-color: @dark;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: @white;
+    transition: all 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    &:hover {
+        text-decoration: none;
+        color: @white;
+        background-color: @arow-down-bg;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Slider 
 #panel{
+    z-index: 2;
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 400px;
     padding: 5px;
     text-align: center;
     background-color: @arow-down-bg;
 }
 #flip {
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
